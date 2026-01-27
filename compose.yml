@@ -5,7 +5,7 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_DB: ${DATABASE_NAME:-faqdb}
-      POSTGRES_USER: ${DAtABASE_USERNAME:-faq}
+      POSTGRES_USER: ${DATABASE_USERNAME:-faq}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-faq123}
     volumes:
       - pgdata:/var/lib/postgresql/data
