@@ -1,4 +1,4 @@
-package com.back.service;
+package com.back.faq.service;
 
 
 import com.back.faq.entity.Faq;
