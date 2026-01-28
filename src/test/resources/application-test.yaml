@@ -5,4 +5,4 @@ spring:
     ollama:
       base-url: http://localhost:11434
       chat:
-        model: phi3:latest
+        model: llama3S
